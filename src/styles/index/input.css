@@ -1,0 +1,21 @@
+.input-container {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 10px;
+  padding: 0.875rem;
+  background-color: #282843;
+  border-radius: 6.2rem;
+}
+
+.input-container input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.input-container img {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+  }
+  

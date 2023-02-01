@@ -1,0 +1,29 @@
+.header {
+  display: grid;
+  grid-template-columns: min-content auto min-content;
+  gap: 16px;
+  align-items: center;
+}
+
+.head-container .date-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .informations .name {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.2rem;
+  letter-spacing: 0.05em;
+}
+
+.header .informations .status .status-text {
+  color: #00b37e;
+  font-size: 0.75em;
+  line-height: 0.875em;
+}
+
+.head-container .date-message .date-time {
+  font-size: 0.75em;
+}
